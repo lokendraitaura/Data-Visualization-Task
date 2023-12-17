@@ -1,0 +1,20 @@
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th {
+  padding: 6px;
+}
+td {
+  padding: 12px;
+  text-align: center;
+}
+.fw-bolt {
+  font-weight: bold;
+}
+table {
+  width: 35%;
+  margin: 4rem auto;
+}
