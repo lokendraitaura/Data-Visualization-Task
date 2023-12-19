@@ -40,14 +40,7 @@ export const calculateMode = (values: number[]): number => {
     }
   });
 
-  let modeCount = 0;
-  for (const key in freq) {
-    if (freq[key] === maxFreq) {
-      modeCount++;
-    }
-  }
-
-  return modeCount === 1 ? parseFloat(mode.toFixed(3)) : parseFloat("0.000");
+  return parseFloat(mode.toFixed(3));
 };
 //call calculateGamma function for add Gamma property in wineJsonData
 let wineData = calculateGamma();
